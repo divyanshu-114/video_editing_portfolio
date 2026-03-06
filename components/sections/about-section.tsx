@@ -235,9 +235,9 @@ export function AboutSection() {
             {/* Stats */}
             <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { value: "5+", label: "Years Experience" },
-                { value: "50+", label: "Projects Completed" },
-                { value: "30+", label: "Happy Clients" },
+                // { value: "5+", label: "Years Experience" },
+                { value: "10+", label: "Projects Completed" },
+                // { value: "30+", label: "Happy Clients" },
                 { value: "∞", label: "Cups of Coffee" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center md:text-left">
