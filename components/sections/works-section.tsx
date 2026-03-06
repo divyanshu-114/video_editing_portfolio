@@ -208,7 +208,7 @@ export function WorksSection() {
 
         {/* ── Short Form ── */}
         <SubSectionHeader tag="Short Form Content" title="Reels & Shorts" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-24 md:mb-32">
+        <div className="max-w-0.2xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-24 md:mb-32">
           {shortFormVideos.map((video) => (
             <ShortCard key={video.id} video={video} />
           ))}
